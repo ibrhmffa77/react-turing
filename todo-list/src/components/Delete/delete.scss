@@ -1,0 +1,13 @@
+.deleteBtn{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.deleteBtn:focus,
+.deleteBtn:focus-visible {
+  border: 2px solid rgb(86, 3, 3);
+
+}
