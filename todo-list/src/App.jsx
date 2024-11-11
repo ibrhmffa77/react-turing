@@ -19,7 +19,7 @@ function App() {
       inputVal.current.value = "";
     }
   }
-  function removeList(){
+  function removeList(index){
     setTodos(todos.filter((item, i)=> i!==index))
   }
 
